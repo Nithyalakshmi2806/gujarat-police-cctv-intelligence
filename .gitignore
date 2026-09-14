@@ -1,0 +1,4 @@
+ai/output/
+venv/
+__pycache__/
+*.pyc
