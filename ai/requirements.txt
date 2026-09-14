@@ -1,0 +1,8 @@
+opencv-python-headless>=4.8
+numpy>=1.24
+pillow>=10.0
+pytesseract>=0.3.10
+
+# --- Upgrade path (install when you have GPU/disk headroom) ---
+# ultralytics>=8.0        # YOLOv8 for real vehicle detection (swap into vehicle_detector.py)
+# easyocr>=1.7            # Deep-learning OCR, better on real plates than Tesseract
